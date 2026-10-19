@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+Signing.xcconfig
+Inference/Artifacts/
+Validation/
+work/
+dist/
+*.ipa
+*.dSYM/

@@ -1,0 +1,22 @@
+Dependencies used through Swift Package Manager:
+
+SwiftADB — https://github.com/akshaynexus/SwiftADB
+Pinned revision: 1044bec57ee3aef4b7c556fce2e76b24257769e5
+Source headers specify Apache-2.0 OR GPL-3.0-or-later; some files additionally
+specify BSD-3-Clause. This project elects Apache-2.0 where dual licensed.
+Retain upstream per-file notices and applicable license texts when distributing.
+
+BigInt — https://github.com/attaswift/BigInt — MIT
+swift-asn1 — https://github.com/apple/swift-asn1 — Apache-2.0
+
+Exact transitive versions are recorded in Package.resolved. The generated app
+uses Apple's Speech, AVFoundation, Security and Network system frameworks.
+
+llama.cpp — https://github.com/ggml-org/llama.cpp — MIT
+Official b11734 XCFramework, pinned and verified by Inference/prepare-runtime.sh.
+License included under App/Resources/Licenses/llama-MIT.txt.
+
+Qwen3-1.7B — https://huggingface.co/Qwen/Qwen3-1.7B — Apache-2.0
+Optional GGUF downloads from ggml-org/Qwen3-1.7B-GGUF, revision
+daeb8e2d528a760970442092f6bf1e55c3b659eb. No weights bundled in the app.
+License included under App/Resources/Licenses/Qwen-Apache-2.0.txt.

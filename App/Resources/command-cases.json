@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "query": "Pause the movie",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "pause_media",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "query": "Продолжи воспроизведение",
+    "language": "ru",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "resume_media",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "query": "Set volume to 30",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "set_volume",
+        "arguments": {
+          "level": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "query": "Turn it down a bit",
+    "language": "en",
+    "category": "underspecified",
+    "expected": []
+  },
+  {
+    "id": 15,
+    "query": "Открой Jellyfin и установи громкость на 20",
+    "language": "ru",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "open_app",
+        "arguments": {
+          "app": "Jellyfin"
+        }
+      },
+      {
+        "name": "set_volume",
+        "arguments": {
+          "level": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "query": "Go to the home screen",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "go_home",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "query": "Set volume to 150",
+    "language": "en",
+    "category": "out_of_range",
+    "expected": []
+  },
+  {
+    "id": 7,
+    "query": "Don't pause the movie",
+    "language": "en",
+    "category": "negated",
+    "expected": []
+  },
+  {
+    "id": 13,
+    "query": "Установи громкость на 30",
+    "language": "ru",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "set_volume",
+        "arguments": {
+          "level": 30
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "query": "Не ставь на паузу",
+    "language": "ru",
+    "category": "negated",
+    "expected": []
+  },
+  {
+    "id": 2,
+    "query": "Resume playback",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "resume_media",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "query": "Поставь на паузу",
+    "language": "ru",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "pause_media",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "query": "Открой YouTube",
+    "language": "ru",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "open_app",
+        "arguments": {
+          "app": "YouTube"
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "query": "What's the weather?",
+    "language": "en",
+    "category": "unsupported",
+    "expected": []
+  },
+  {
+    "id": 6,
+    "query": "Open Jellyfin and set the volume to 20",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "open_app",
+        "arguments": {
+          "app": "Jellyfin"
+        }
+      },
+      {
+        "name": "set_volume",
+        "arguments": {
+          "level": 20
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "query": "Open YouTube",
+    "language": "en",
+    "category": "positive",
+    "expected": [
+      {
+        "name": "open_app",
+        "arguments": {
+          "app": "YouTube"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Find space on YouTube",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "YouTube",
+          "query": "space"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди космос в Ютубе",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "YouTube",
+          "query": "космос"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Find space on Jellyfin",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Jellyfin",
+          "query": "space"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди космос в Jellyfin",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Jellyfin",
+          "query": "космос"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Find space on Rutube",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Rutube",
+          "query": "space"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди космос в Рутубе",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Rutube",
+          "query": "космос"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Find space on VK Video",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "VK Video",
+          "query": "space"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди космос в ВК Видео",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "VK Video",
+          "query": "космос"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Search YouTube for black holes",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "YouTube",
+          "query": "black holes"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди документальные фильмы в Рутубе",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Rutube",
+          "query": "документальные фильмы"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Find космос on YouTube",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "YouTube",
+          "query": "космос"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Найди Star Trek в Jellyfin",
+    "expected": [
+      {
+        "name": "search_app",
+        "arguments": {
+          "app": "Jellyfin",
+          "query": "Star Trek"
+        }
+      }
+    ]
+  },
+  {
+    "query": "Don't search VK Video for space",
+    "expected": []
+  },
+  {
+    "query": "Не ищи космос на Ютубе",
+    "expected": []
+  },
+  {
+    "query": "Find space",
+    "expected": []
+  },
+  {
+    "query": "Search Netflix for space",
+    "expected": []
+  }
+]

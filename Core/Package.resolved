@@ -1,0 +1,32 @@
+{
+  "originHash" : "6d5f4652edac76b636f7c627e4097991a1be69446374cdfb4da815fbca392468",
+  "pins" : [
+    {
+      "identity" : "bigint",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/attaswift/BigInt.git",
+      "state" : {
+        "revision" : "e07e00fa1fd435143a2dcf8b7eec9a7710b2fdfe",
+        "version" : "5.7.0"
+      }
+    },
+    {
+      "identity" : "swift-asn1",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-asn1.git",
+      "state" : {
+        "revision" : "3b6410f7dee09eb33cdd26260c5fd47fda19b0e2",
+        "version" : "1.7.3"
+      }
+    },
+    {
+      "identity" : "swiftadb",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/akshaynexus/SwiftADB.git",
+      "state" : {
+        "revision" : "1044bec57ee3aef4b7c556fce2e76b24257769e5"
+      }
+    }
+  ],
+  "version" : 3
+}

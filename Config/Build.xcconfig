@@ -1,0 +1,2 @@
+// Optional local development signing; never committed.
+#include? "../Signing.xcconfig"
